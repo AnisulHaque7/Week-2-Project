@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      ANIS - Free Modern React Templates &amp; Components for building landing
+      pages and UIs - Treact
+    </title>
+    <link
+      rel="icon"
+      href="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/13b8918c62.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <section id="landing">
+      <nav>
+        <div class="nav__container">
+          <div class="nav__row">
+            <div class="nav__logo--wrapper">
+              <a href="#" class="nav__logo">
+                <img
+                  class="logo"
+                  src="https://treact.owaiskhan.me/static/media/logo.2c489fc453a1783cbadacf914efa3df6.svg"
+                  alt=""
+                />Treact
+              </a>
+            </div>
+            <ul class="nav__links">
+              <li><a href="#" class="nav__link">About</a></li>
+              <li><a href="#" class="nav__link">Blog</a></li>
+              <li><a href="#" class="nav__link">Pricing</a></li>
+              <li><a href="#" class="nav__link">Contact Us</a></li>
+              <li><a href="#" class="nav__link nav__link--login">Login</a></li>
+              <li>
+                <a href="#" class="nav__link nav__link--sign-up">Sign Up</a>
+              </li>
+            </ul>
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <div class="menu__backdrop">
+              <div class="menu__links">
+                  <a href="#" class="menu__link" onclick="closeMenu()">About</a>
+                  <a href="#features" class="menu__link" onclick="closeMenu()">Blog</a>
+                  <a href="" class="menu__link" onclick="closeMenu()">Pricing</a>
+                  <a href="" class="menu__link" onclick="closeMenu()">Contact Us</a>
+                  <a href="" class="menu__link" onclick="closeMenu()">Login</a>
+                  <a href="" class="menu__link nav__link--sign-up" onclick="closeMenu()">Sign Up</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="header__container">
+          <div class="header__row">
+            <div class="header__column1">
+              <h1 class="header__column1--header">
+                Beautiful React Templates <span class="purple">for you.</span>
+              </h1>
+              <p class="header__column1--para">
+                Our templates are easy to setup, understand and customize. Fully
+                modular components with a variety of pages and components.
+              </p>
+              <div class="header__column1--get-started">
+                <input type="text" placeholder="Your E-mail Address" />
+                <button>Get Started</button>
+              </div>
+              <div class="header__column1--customers">
+                <p>OUR TRUSTED CUSTOMERS</p>
+                <img class="customers__img"
+                  src="https://treact.owaiskhan.me/static/media/customers-logo-strip.680ac7c2e8ae28161d2c.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="header__column2">
+              <div class="header__column2--wrapper">
+                <img
+                  src="https://treact.owaiskhan.me/static/media/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg"
+                  alt=""
+                  class="header__column2--img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="features">
+        <div class="features__container">
+          <div class="features__row">
+            <h5 class="features__subheader purple">FEATURES</h5>
+            <h2 class="features__header">
+              We have Amazing <span class="purple">Service.</span>
+            </h2>
+            <p class="features__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="features__spacer"></div>
+            <div class="service__row">
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">Secure</span>
+                    <p class="service__description">
+                      We strictly only deal with vendors that provide top notch
+                      security.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/support-icon.f9253ffa8cb6ffde5bbaa05eb5136375.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">24/7 Support</span>
+                    <p class="service__description">
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                      quis nostrud.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/customize-icon.367468c90fd796009b97fbfba67b2c6a.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">Customizable</span>
+                    <p class="service__description">
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                      quis nostrud.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/reliable-icon.1367510a8f0a1bec76dc425d25f92f43.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">Reliable</span>
+                    <p class="service__description">
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                      quis nostrud.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/fast-icon.dbb971a73d4805d2fc3bcdacdb55beba.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">Fast</span>
+                    <p class="service__description">
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                      quis nostrud.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="service__feature--wrapper">
+                <div class="service__feature">
+                  <figure class="features__img--container">
+                    <img
+                      class="service__img"
+                      src="https://treact.owaiskhan.me/static/media/simple-icon.673b7e1750b2a4ef32907fc164828d00.svg"
+                      alt=""
+                    />
+                  </figure>
+                  <div class="features__text--container">
+                    <span class="service__title">Easy</span>
+                    <p class="service__description">
+                      Lorem ipsum donor amet siti ceali ut enim ad minim veniam,
+                      quis nostrud.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="quality">
+        <div class="quality__container">
+          <div class="quality__row">
+            <div class="quality__column1">
+              <div class="quality__column1--wrapper">
+                <h5 class="quality__subheader">
+                  <span class="purple">QUALITY WORK</span>
+                </h5>
+                <h2 class="quality__header">
+                  Designed & Developed by
+                  <span class="purple">Professionals.</span>
+                </h2>
+                <p class="quality__para">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+                <a href="https://timerse.com" class="quality__learn"
+                  >Learn More</a
+                >
+              </div>
+            </div>
+            <div class="quality__column2">
+              <img
+                src="https://treact.owaiskhan.me/static/media/hero-screenshot-1.40a097b525c2f8c9808e.png"
+                class="quality__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="steps">
+        <div class="steps__container">
+          <div class="steps__row">
+            <div class="steps__column1">
+              <img
+                src="https://treact.owaiskhan.me/static/media/hero-screenshot-2.241aac1fbc66db29d873.png"
+                class="steps__img"
+              />
+            </div>
+            <div class="steps__column2">
+              <div class="steps__column2--wrapper">
+                <h5 class="steps__subheader">
+                  <span class="purple">STEPS</span>
+                </h5>
+                <h2 class="steps__header">
+                  Easy to
+                  <span class="purple">Get Started.</span>
+                </h2>
+                <ul class="steps__list">
+                  <li class="steps__step">
+                    <div class="steps__number">01</div>
+                    <div class="steps__text">
+                      <h6 class="steps__step--header">Register</h6>
+                      <p class="steps__step--para">
+                        Create an account with us using Google or Facebook.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="steps__step">
+                    <div class="steps__number">02</div>
+                    <div class="steps__text">
+                      <h6 class="steps__step--header">Download</h6>
+                      <p class="steps__step--para">
+                        Browse and Download the template that you like from the
+                        marketplace.
+                      </p>
+                    </div>
+                  </li>
+                  <li class="steps__step">
+                    <div class="steps__number">03</div>
+                    <div class="steps__text">
+                      <h6 class="steps__step--header">Run</h6>
+                      <p class="steps__step--para">
+                        Follow the instructions to setup and customize the
+                        template to your needs.
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="values">
+        <div class="values__row">
+          <div class="values__column1">
+            <div class="values__column1--wrapper">
+              <h5 class="values__subheader">
+                <span class="purple">VALUES</span>
+              </h5>
+              <h2 class="values__header">
+                We Always Abide by Our <span class="purple">Principles.</span>
+              </h2>
+              <p class="values__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <div class="values__features">
+                <div class="value1">
+                  <div class="value1__container">
+                    <div class="value1__button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-dollar-sign"
+                      >
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path
+                          d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                        ></path>
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path
+                          d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="value">Affordable</div>
+                  </div>
+                  <div class="value__feature">
+                    We promise to offer you the best rate we can - at par with
+                    the industry standard.
+                  </div>
+                </div>
+                <div class="value2">
+                  <div class="value2__container">
+                    <div class="value2__button">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="feather feather-briefcase"
+                      >
+                        <rect
+                          x="2"
+                          y="7"
+                          width="20"
+                          height="14"
+                          rx="2"
+                          ry="2"
+                        ></rect>
+                        <path
+                          d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
+                        ></path>
+                        <rect
+                          x="2"
+                          y="7"
+                          width="20"
+                          height="14"
+                          rx="2"
+                          ry="2"
+                        ></rect>
+                        <path
+                          d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="value">Professionalism</div>
+                  </div>
+
+                  <div class="value__feature">
+                    We assure you that our templates are designed and created by
+                    professional designers.
+                  </div>
+                </div>
+              </div>
+              <a href="https://timerse.com" class="values__learn">Learn More</a>
+            </div>
+          </div>
+          <div class="values__column2">
+            <img
+              src="https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg"
+              alt=""
+              class="values__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="pricing">
+        <div class="pricing__row">
+          <div class="pricing__header--container">
+            <h5 class="pricing__subheader">
+              <span class="purple">PRICING</span>
+            </h5>
+            <h2 class="pricing__header">
+              Reasonable & Flexible <span class="purple">Plans.</span>
+            </h2>
+            <p class="pricing__para">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="pricing__plans--container">
+            <div class="pricing__plan1">
+              <div class="plan1__highlight"></div>
+              <div class="plan1__price">
+                <span class="name">PERSONAL</span>
+                <span class="price">$17.99</span>
+                <span class="duration">MONTHLY</span>
+              </div>
+              <div class="plan1__features">
+                <span class="main-feature">For Individuals</span>
+                <span class="feature">30 Templates</span>
+                <span class="feature">7 Landing Pages</span>
+                <span class="feature">12 Internal Pages</span>
+                <span class="feature">Basic Assistance</span>
+              </div>
+              <div class="plan__action--button">
+                <button class="buy-now__button plan1__button">Buy Now</button>
+              </div>
+            </div>
+            <div class="pricing__plan2">
+              <div class="plan2__price">
+                <span class="name">BUSINESS</span>
+                <span class="price">$37.99</span>
+                <span class="duration">MONTHLY</span>
+              </div>
+              <div class="plan2__features">
+                <span class="main-feature">For Small Businesses</span>
+                <span class="feature">60 Templates</span>
+                <span class="feature">15 Landing Pages</span>
+                <span class="feature">22 Internal Pages</span>
+                <span class="feature">Priority Assistance</span>
+              </div>
+              <div class="plan__action--button">
+                <button class="buy-now__button plan2__button">Buy Now</button>
+              </div>
+            </div>
+            <div class="pricing__plan3">
+              <div class="plan3__highlight"></div>
+              <div class="plan3__price">
+                <span class="name">ENTERPRISE</span>
+                <span class="price">$57.99</span>
+                <span class="duration">MONTHLY</span>
+              </div>
+              <div class="plan3__features">
+                <span class="main-feature">For Large Companies</span>
+                <span class="feature">90 Templates</span>
+                <span class="feature">27 Landing Pages</span>
+                <span class="feature">37 Internal Pages</span>
+                <span class="feature">Personal Assistance</span>
+              </div>
+              <div class="plan__action--button">
+                <button class="buy-now__button plan3__button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonials">
+        <div class="testimonials__row">
+          <div class="testimonials__container">
+            <div class="testimonials__column1">
+              <img
+                src="https://treact.owaiskhan.me/static/media/love-illustration.c759090fa833369ad6ffb6eb19cacb3e.svg"
+                alt=""
+                class="testimonials__img"
+              />
+            </div>
+            <div class="testimonials__column2">
+              <h5 class="testimonials__subheader purple">TESTIMONIALS</h5>
+              <h2 class="testimonials__header">
+                Our Clients <span class="purple">Love Us.</span>
+              </h2>
+              <p class="testimonials__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua enim
+                ad minim veniam.
+              </p>
+              <div class="slick-slider testimonials__slider slick-initialized" dir="ltr">
+                <div class="slick-list">
+                  <div class="slick-track">
+                    <!-- <div
+                      data-index="-1"
+                      tabindex="-1"
+                      class="slick-slide slick-cloned"
+                      aria-hidden="true"
+                      style="width: 486px"
+                    >
+                      <div tabindex="-1" class="slide">
+                        <div class="rating">
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="slide__header">
+                          Love the Developer Experience and Design Principles!
+                        </div>
+                        <blockquote class="slide__quote">
+                          Sinor Duis aute irure dolor in reprehenderit in
+                          voluptate velit esse cillum dolore eu fugiat nulla
+                          pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia. Lorem ipsum dolor
+                          sit amet, consectetur adipiscing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam.
+                        </blockquote>
+                        <div class="slide__customer--container">
+                          <div class="slide__customer">
+                            <img
+                              src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80"
+                              alt=""
+                              class="customer__img"
+                            />
+                            <div class="customer__info">
+                              <h5 class="customer__name">Adam Cuppy</h5>
+                              <p class="customer__title">Founder, EventsNYC</p>
+                            </div>
+                          </div>
+                          <div class="slide__buttons--container">
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                              </svg>
+                            </button>
+                            <div class="slide__button--divider"></div>
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                    <div
+                      data-index="0"
+                      class="slick-slide slick-active slick-current"
+                      tabindex="-1"
+                      aria-hidden="false"
+                      style="outline: none; width: 486px"
+                    >
+                      <div tabindex="-1" class="slide">
+                        <div class="rating">
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="slide__header">Amazing User Experience</div>
+                        <blockquote class="slide__quote">
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore eu fugiat nulla pariatur.
+                          Excepteur sint occaecat cupidatat non proident, sunt
+                          in culpa qui officia. Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud exercitation ullamco.
+                        </blockquote>
+                        <div class="slide__customer--container">
+                          <div class="slide__customer">
+                            <img
+                              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                              alt=""
+                              class="customer__img"
+                            />
+                            <div class="customer__info">
+                              <h5 class="customer__name">Charlotte Hale</h5>
+                              <p class="customer__title">
+                                Director, Delos Inc.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="slide__buttons--container">
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                              </svg>
+                            </button>
+                            <div class="slide__button--divider"></div>
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div
+                      data-index="1"
+                      class="slick-slide"
+                      tabindex="-1"
+                      aria-hidden="true"
+                      style="outline: none; width: 486px"
+                    >
+                      <div tabindex="-1" class="slide">
+                        <div class="rating">
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="slide__header">
+                          Love the Developer Experience and Design Principles!
+                        </div>
+                        <blockquote class="slide__quote">
+                          Sinor Duis aute irure dolor in reprehenderit in
+                          voluptate velit esse cillum dolore eu fugiat nulla
+                          pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia. Lorem ipsum dolor
+                          sit amet, consectetur adipiscing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam.
+                        </blockquote>
+                        <div class="slide__customer--container">
+                          <div class="slide__customer">
+                            <img
+                              src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80"
+                              alt=""
+                              class="customer__img"
+                            />
+                            <div class="customer__info">
+                              <h5 class="customer__name">Adam Cuppy</h5>
+                              <p class="customer__title">Founder, EventsNYC</p>
+                            </div>
+                          </div>
+                          <div class="slide__buttons--container">
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                              </svg>
+                            </button>
+                            <div class="slide__button--divider"></div>
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-index="2"
+                      tabindex="-1"
+                      class="slick-slide slick-cloned"
+                      aria-hidden="true"
+                      style="width: 486px"
+                    >
+                      <div tabindex="-1" class="slide">
+                        <div class="rating">
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="slide__header">Amazing User Experience</div>
+                        <blockquote class="slide__quote">
+                          Duis aute irure dolor in reprehenderit in voluptate
+                          velit esse cillum dolore eu fugiat nulla pariatur.
+                          Excepteur sint occaecat cupidatat non proident, sunt
+                          in culpa qui officia. Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit, sed do eiusmod tempor
+                          incididunt ut labore et dolore magna aliqua. Ut enim
+                          ad minim veniam, quis nostrud exercitation ullamco.
+                        </blockquote>
+                        <div class="slide__customer--container">
+                          <div class="slide__customer">
+                            <img
+                              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80"
+                              alt=""
+                              class="customer__img"
+                            />
+                            <div class="customer__info">
+                              <h5 class="customer__name">Charlotte Hale</h5>
+                              <p class="customer__title">
+                                Director, Delos Inc.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="slide__buttons--container">
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                              </svg>
+                            </button>
+                            <div class="slide__button--divider"></div>
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      data-index="3"
+                      tabindex="-1"
+                      class="slick-slide slick-cloned"
+                      aria-hidden="true"
+                      style="width: 486px"
+                    >
+                      <div tabindex="-1" class="slide">
+                        <div class="rating">
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                          <i class="fas fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="slide__header">
+                          Love the Developer Experience and Design Principles!
+                        </div>
+                        <blockquote class="slide__quote">
+                          Sinor Duis aute irure dolor in reprehenderit in
+                          voluptate velit esse cillum dolore eu fugiat nulla
+                          pariatur. Excepteur sint occaecat cupidatat non
+                          proident, sunt in culpa qui officia. Lorem ipsum dolor
+                          sit amet, consectetur adipiscing elit, sed do eiusmod
+                          tempor incididunt ut labore et dolore magna aliqua. Ut
+                          enim ad minim veniam.
+                        </blockquote>
+                        <div class="slide__customer--container">
+                          <div class="slide__customer">
+                            <img
+                              src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80"
+                              alt=""
+                              class="customer__img"
+                            />
+                            <div class="customer__info">
+                              <h5 class="customer__name">Adam Cuppy</h5>
+                              <p class="customer__title">Founder, EventsNYC</p>
+                            </div>
+                          </div>
+                          <div class="slide__buttons--container">
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                              </svg>
+                            </button>
+                            <div class="slide__button--divider"></div>
+                            <button class="slide__button">
+                              <svg
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+                              </svg>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="faqs"></section>
+      <section id="start">
+        <div class="start__container">
+          <div class="start__row">
+            <div class="start__background--container">
+              <div class="start__main">
+                <div class="start__text--container">
+                  <h5 class="start__text">
+                    Developers all over the world are happily using Treact.
+                  </h5>
+                </div>
+                <div class="start__buttons--container">
+                  <a href="http://timerse.com" class="start__button"
+                    >Get Started</a
+                  >
+                  <a href="http://google.com" class="contact__button"
+                    >Contact Us</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__container">
+        <div class="footer__row">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <h5 class="footer__column--header">MAIN</h5>
+              <ul class="footer__column--list">
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Blog</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">FAQs</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Support</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">About Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5 class="footer__column--header">PRODUCT</h5>
+              <ul class="footer__column--list">
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Log In</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Personal</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Business</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Team</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5 class="footer__column--header">PRESS</h5>
+              <ul class="footer__column--list">
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Logos</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Events</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Stories</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Office</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5 class="footer__column--header">TEAM</h5>
+              <ul class="footer__column--list">
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Career</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Founders</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Culture</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Onboarding</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <h5 class="footer__column--header">LEGAL</h5>
+              <ul class="footer__column--list">
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">GDPR</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Privacy Policy</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Terms of Service</a>
+                </li>
+                <li class="footer__list--links">
+                  <a href="#" class="footer__link">Disclaimer</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__divider"></div>
+          <div class="footer__end">
+            <div class="footer__logo">
+              <img
+                src="https://treact.owaiskhan.me/static/media/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"
+                alt=""
+                class="footer__logo--img"
+              />
+              <h5 class="footer__logo--header">Treact Inc.</h5>
+            </div>
+            <p class="footer__para">© 2018 Treact Inc. All Rights Reserved.</p>
+            <div class="footer__socials">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                class="footer__social--wrapper"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://twitter.com/"
+                target="_blank"
+                class="footer__social--wrapper"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a
+                href="https://www.youtube.com/"
+                target="_blank"
+                class="footer__social--wrapper"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="slider.js"></script>
+  </body>
+</html>
